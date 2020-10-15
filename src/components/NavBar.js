@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div className="navbar">
       <div className="row mt-2">
-        <NavLink className="navLink card" to="/discover">
+        <NavLink className="navLink card" to="/discover/:searchText">
           Discover Movies
         </NavLink>
         <div style={{ width: "30px" }}></div>
